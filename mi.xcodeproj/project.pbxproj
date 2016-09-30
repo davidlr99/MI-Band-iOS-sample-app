@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63B0BE051D96EEBD00717767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0BE041D96EEBD00717767 /* main.m */; };
+		63B0BE081D96EEBD00717767 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0BE071D96EEBD00717767 /* AppDelegate.m */; };
+		63B0BE0B1D96EEBD00717767 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0BE0A1D96EEBD00717767 /* ViewController.m */; };
+		63B0BE0E1D96EEBD00717767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B0BE0C1D96EEBD00717767 /* Main.storyboard */; };
+		63B0BE101D96EEBD00717767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B0BE0F1D96EEBD00717767 /* Assets.xcassets */; };
+		63B0BE131D96EEBD00717767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B0BE111D96EEBD00717767 /* LaunchScreen.storyboard */; };
+		63B0BE1E1D96EEBD00717767 /* miTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0BE1D1D96EEBD00717767 /* miTests.m */; };
+		63B0BE291D96EEBD00717767 /* miUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0BE281D96EEBD00717767 /* miUITests.m */; };
+		63B0BE381D96EEC700717767 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B0BE371D96EEC700717767 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63B0BE1A1D96EEBD00717767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B0BDF81D96EEBD00717767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B0BDFF1D96EEBD00717767;
+			remoteInfo = mi;
+		};
+		63B0BE251D96EEBD00717767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B0BDF81D96EEBD00717767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B0BDFF1D96EEBD00717767;
+			remoteInfo = mi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63B0BE001D96EEBD00717767 /* mi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B0BE041D96EEBD00717767 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63B0BE061D96EEBD00717767 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63B0BE071D96EEBD00717767 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63B0BE091D96EEBD00717767 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63B0BE0A1D96EEBD00717767 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63B0BE0D1D96EEBD00717767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63B0BE0F1D96EEBD00717767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63B0BE121D96EEBD00717767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63B0BE141D96EEBD00717767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B0BE191D96EEBD00717767 /* miTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B0BE1D1D96EEBD00717767 /* miTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miTests.m; sourceTree = "<group>"; };
+		63B0BE1F1D96EEBD00717767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B0BE241D96EEBD00717767 /* miUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B0BE281D96EEBD00717767 /* miUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miUITests.m; sourceTree = "<group>"; };
+		63B0BE2A1D96EEBD00717767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B0BE371D96EEC700717767 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B0BDFD1D96EEBD00717767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0BE381D96EEC700717767 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B0BE161D96EEBD00717767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B0BE211D96EEBD00717767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63B0BDF71D96EEBD00717767 = {
+			isa = PBXGroup;
+			children = (
+				63B0BE021D96EEBD00717767 /* mi */,
+				63B0BE1C1D96EEBD00717767 /* miTests */,
+				63B0BE271D96EEBD00717767 /* miUITests */,
+				63B0BE011D96EEBD00717767 /* Products */,
+				63B0BE361D96EEC700717767 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63B0BE011D96EEBD00717767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B0BE001D96EEBD00717767 /* mi.app */,
+				63B0BE191D96EEBD00717767 /* miTests.xctest */,
+				63B0BE241D96EEBD00717767 /* miUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B0BE021D96EEBD00717767 /* mi */ = {
+			isa = PBXGroup;
+			children = (
+				63B0BE061D96EEBD00717767 /* AppDelegate.h */,
+				63B0BE071D96EEBD00717767 /* AppDelegate.m */,
+				63B0BE091D96EEBD00717767 /* ViewController.h */,
+				63B0BE0A1D96EEBD00717767 /* ViewController.m */,
+				63B0BE0C1D96EEBD00717767 /* Main.storyboard */,
+				63B0BE0F1D96EEBD00717767 /* Assets.xcassets */,
+				63B0BE111D96EEBD00717767 /* LaunchScreen.storyboard */,
+				63B0BE141D96EEBD00717767 /* Info.plist */,
+				63B0BE031D96EEBD00717767 /* Supporting Files */,
+			);
+			path = mi;
+			sourceTree = "<group>";
+		};
+		63B0BE031D96EEBD00717767 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63B0BE041D96EEBD00717767 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63B0BE1C1D96EEBD00717767 /* miTests */ = {
+			isa = PBXGroup;
+			children = (
+				63B0BE1D1D96EEBD00717767 /* miTests.m */,
+				63B0BE1F1D96EEBD00717767 /* Info.plist */,
+			);
+			path = miTests;
+			sourceTree = "<group>";
+		};
+		63B0BE271D96EEBD00717767 /* miUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63B0BE281D96EEBD00717767 /* miUITests.m */,
+				63B0BE2A1D96EEBD00717767 /* Info.plist */,
+			);
+			path = miUITests;
+			sourceTree = "<group>";
+		};
+		63B0BE361D96EEC700717767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B0BE371D96EEC700717767 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63B0BDFF1D96EEBD00717767 /* mi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B0BE2D1D96EEBD00717767 /* Build configuration list for PBXNativeTarget "mi" */;
+			buildPhases = (
+				63B0BDFC1D96EEBD00717767 /* Sources */,
+				63B0BDFD1D96EEBD00717767 /* Frameworks */,
+				63B0BDFE1D96EEBD00717767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mi;
+			productName = mi;
+			productReference = 63B0BE001D96EEBD00717767 /* mi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63B0BE181D96EEBD00717767 /* miTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B0BE301D96EEBD00717767 /* Build configuration list for PBXNativeTarget "miTests" */;
+			buildPhases = (
+				63B0BE151D96EEBD00717767 /* Sources */,
+				63B0BE161D96EEBD00717767 /* Frameworks */,
+				63B0BE171D96EEBD00717767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B0BE1B1D96EEBD00717767 /* PBXTargetDependency */,
+			);
+			name = miTests;
+			productName = miTests;
+			productReference = 63B0BE191D96EEBD00717767 /* miTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63B0BE231D96EEBD00717767 /* miUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B0BE331D96EEBD00717767 /* Build configuration list for PBXNativeTarget "miUITests" */;
+			buildPhases = (
+				63B0BE201D96EEBD00717767 /* Sources */,
+				63B0BE211D96EEBD00717767 /* Frameworks */,
+				63B0BE221D96EEBD00717767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B0BE261D96EEBD00717767 /* PBXTargetDependency */,
+			);
+			name = miUITests;
+			productName = miUITests;
+			productReference = 63B0BE241D96EEBD00717767 /* miUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B0BDF81D96EEBD00717767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "David L-R";
+				TargetAttributes = {
+					63B0BDFF1D96EEBD00717767 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MX7K7W26D8;
+						ProvisioningStyle = Automatic;
+					};
+					63B0BE181D96EEBD00717767 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MX7K7W26D8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63B0BDFF1D96EEBD00717767;
+					};
+					63B0BE231D96EEBD00717767 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MX7K7W26D8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63B0BDFF1D96EEBD00717767;
+					};
+				};
+			};
+			buildConfigurationList = 63B0BDFB1D96EEBD00717767 /* Build configuration list for PBXProject "mi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63B0BDF71D96EEBD00717767;
+			productRefGroup = 63B0BE011D96EEBD00717767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B0BDFF1D96EEBD00717767 /* mi */,
+				63B0BE181D96EEBD00717767 /* miTests */,
+				63B0BE231D96EEBD00717767 /* miUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B0BDFE1D96EEBD00717767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0BE131D96EEBD00717767 /* LaunchScreen.storyboard in Resources */,
+				63B0BE101D96EEBD00717767 /* Assets.xcassets in Resources */,
+				63B0BE0E1D96EEBD00717767 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B0BE171D96EEBD00717767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B0BE221D96EEBD00717767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B0BDFC1D96EEBD00717767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0BE0B1D96EEBD00717767 /* ViewController.m in Sources */,
+				63B0BE081D96EEBD00717767 /* AppDelegate.m in Sources */,
+				63B0BE051D96EEBD00717767 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B0BE151D96EEBD00717767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0BE1E1D96EEBD00717767 /* miTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B0BE201D96EEBD00717767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0BE291D96EEBD00717767 /* miUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63B0BE1B1D96EEBD00717767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B0BDFF1D96EEBD00717767 /* mi */;
+			targetProxy = 63B0BE1A1D96EEBD00717767 /* PBXContainerItemProxy */;
+		};
+		63B0BE261D96EEBD00717767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B0BDFF1D96EEBD00717767 /* mi */;
+			targetProxy = 63B0BE251D96EEBD00717767 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63B0BE0C1D96EEBD00717767 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B0BE0D1D96EEBD00717767 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63B0BE111D96EEBD00717767 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B0BE121D96EEBD00717767 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63B0BE2B1D96EEBD00717767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63B0BE2C1D96EEBD00717767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63B0BE2E1D96EEBD00717767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MX7K7W26D8;
+				INFOPLIST_FILE = mi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Peppersoft.mi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63B0BE2F1D96EEBD00717767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MX7K7W26D8;
+				INFOPLIST_FILE = mi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Peppersoft.mi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63B0BE311D96EEBD00717767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MX7K7W26D8;
+				INFOPLIST_FILE = miTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Peppersoft.miTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mi.app/mi";
+			};
+			name = Debug;
+		};
+		63B0BE321D96EEBD00717767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MX7K7W26D8;
+				INFOPLIST_FILE = miTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Peppersoft.miTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mi.app/mi";
+			};
+			name = Release;
+		};
+		63B0BE341D96EEBD00717767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MX7K7W26D8;
+				INFOPLIST_FILE = miUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Peppersoft.miUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mi;
+			};
+			name = Debug;
+		};
+		63B0BE351D96EEBD00717767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MX7K7W26D8;
+				INFOPLIST_FILE = miUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Peppersoft.miUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63B0BDFB1D96EEBD00717767 /* Build configuration list for PBXProject "mi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B0BE2B1D96EEBD00717767 /* Debug */,
+				63B0BE2C1D96EEBD00717767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B0BE2D1D96EEBD00717767 /* Build configuration list for PBXNativeTarget "mi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B0BE2E1D96EEBD00717767 /* Debug */,
+				63B0BE2F1D96EEBD00717767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B0BE301D96EEBD00717767 /* Build configuration list for PBXNativeTarget "miTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B0BE311D96EEBD00717767 /* Debug */,
+				63B0BE321D96EEBD00717767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B0BE331D96EEBD00717767 /* Build configuration list for PBXNativeTarget "miUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B0BE341D96EEBD00717767 /* Debug */,
+				63B0BE351D96EEBD00717767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63B0BDF81D96EEBD00717767 /* Project object */;
+}
