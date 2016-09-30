@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  mi
+//  mi ios sample app
 //
 //  Created by David Layer-Reiss on 24/09/2016.
 //  Copyright © 2016 David Layer-Reiss. All rights reserved.
